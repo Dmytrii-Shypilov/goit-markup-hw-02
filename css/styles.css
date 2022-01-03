@@ -132,6 +132,9 @@ body {
     text-decoration: none;
     letter-spacing: 0.02em;
 }
+.navigation .link.current-page {
+    color: var(--active-color);
+}
 .header-contacts .link {
     font-style: normal;
     font-weight: 500;
@@ -153,9 +156,7 @@ body {
 .link.footer-contacts {
     color: rgba(255, 255, 255, 0.6);
 }
-.link.current-page {
-    color: var(--active-color);
-}
+
 .link:hover,
 .link:focus {
     color: var(--active-color);
