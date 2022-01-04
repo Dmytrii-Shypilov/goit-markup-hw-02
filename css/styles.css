@@ -71,16 +71,25 @@ body {
 .our-team .section-element {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.17;
+    line-height: 1.19;
+}
+.features .section-element {
+    text-transform: uppercase;
 }
 
 /*----Main text style----*/
 .section .text {
-    font-size:14px;
-    line-height: 1.71;
+    font-size:16px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
 }
-
+.our-team .text {
+    line-height: 1.19;
+}
+.features .text {
+    font-size: 14px;
+    line-height: 1.71;
+}
 /*---- Hero Section blocks of rules ----*/
 .hero-heading {
     font-weight: 900;
